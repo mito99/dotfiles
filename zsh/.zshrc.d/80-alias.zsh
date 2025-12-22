@@ -10,4 +10,3 @@ function clip() {
     nkf -s | clip.exe
 }
 
-alias code='/mnt/c/Users/mito/AppData/Local/Programs/Microsoft\ VS\ Code/bin/code'
