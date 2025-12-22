@@ -109,3 +109,8 @@ if [ -d ~/.zshrc.d ]; then
     done
     unset f
 fi
+
+# ローカル専用の秘密設定があれば読み込む
+if [ -f ~/.zshrc.local ]; then
+    source ~/.zshrc.local
+fi
