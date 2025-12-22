@@ -27,5 +27,9 @@ echo "[nvim] Linking init.lua..."
 mkdir -p "$HOME/.config/nvim"
 ln -sf "$DOT_DIR/nvim/init.lua" "$HOME/.config/nvim/init.lua"
 
+# 5. Git の 設定
+echo "[git] Linking .gitconfig..."
+ln -sf "$DOT_DIR/git/.gitconfig" "$HOME/.gitconfig"
+
 echo "--- Setup Completed! ---"
 echo "Please run 'source ~/.zshrc' to reflect changes."
