@@ -31,5 +31,9 @@ ln -sf "$DOT_DIR/nvim/init.lua" "$HOME/.config/nvim/init.lua"
 echo "[git] Linking .gitconfig..."
 ln -sf "$DOT_DIR/git/.gitconfig" "$HOME/.gitconfig"
 
+# tmux の設定
+echo "[tmux] Linking .tmux.conf ..."
+ln -sf "$DOT_DIR/tmux/tmux.conf" "$HOME/.tmux.conf"
+
 echo "--- Setup Completed! ---"
 echo "Please run 'source ~/.zshrc' to reflect changes."
