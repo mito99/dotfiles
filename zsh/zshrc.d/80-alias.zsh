@@ -1,7 +1,7 @@
 alias sudo='sudo '
 
 alias vi='nvim'
-alias vim='nvim'
+#alias vim='nvim'
 
 # クリップボードコピー関数 (文字化け対策版)
 function clip() {
